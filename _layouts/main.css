@@ -45,7 +45,7 @@ margin-top:10%;
 .menu:link {text-decoration:none;color:#798CB3;}
 .menu:hover {text-decoration:none;color:grey;}
 .img-avatar{position:relative;
-border-radius:600px;
+border-radius:20px;
 width:154px;
 height:154px;
 display:inline-block;
@@ -53,7 +53,7 @@ display:inline-block;
 .img-avatar img{
 width:150px;
 height:150px;
-border-radius:600px;
+border-radius:20px;
 padding:2px;
 border:2px solid #fff;
 position:absolute;
@@ -86,7 +86,6 @@ font-weight:bold;
 border-color:white;
 background:white;
 }
-
 .social {
 height:34px;
 width:34px;
