@@ -1,1 +1,2 @@
-# paulperry.github.io
+# paulperry web site
+Just a one pager.
