@@ -19,13 +19,13 @@ text-align: -webkit-center;
 .menu:hover {text-decoration:none;color:grey;}
 .img-avatar{position:relative;
 border-radius:20px;
-width:154px;
-height:154px;
+width:134px;
+height:134px;
 display:inline-block;
 }
 .img-avatar img{
-width:150px;
-height:150px;
+width:130px;
+height:130px;
 border-radius:20px;
 padding:2px;
 border:2px solid #fff;
