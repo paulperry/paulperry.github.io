@@ -14,8 +14,8 @@ text-align: -webkit-center;
 }
 .hidelink {text-decoration:none;}
 .menu {text-decoration:none;color:#fff;text-align: -webkit-center;}
-.menu:visited {text-decoration:none;color:#798CB3;}
-.menu:link {text-decoration:none;color:#798CB3;}
+.menu:visited {text-decoration:none;color:#fff;}
+.menu:link {text-decoration:none;color:#fff;}
 .menu:hover {text-decoration:none;color:grey;}
 .img-avatar{position:relative;
 border-radius:20px;
