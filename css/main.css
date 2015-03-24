@@ -1,6 +1,6 @@
 html{background:#204080;}
 body{margin:0;padding:0;}
-.text-center{text-align:center;}
+.text-center{text-align:center;  width:100%;}
 .content{position:relative;
 color:#798CB3;
 font-family:'Helvetica Neue';
