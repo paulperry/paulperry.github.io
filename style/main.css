@@ -1,0 +1,140 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); */
+@import url("https://use.typekit.net/uju0sxm.css");
+
+:root {
+  --primary: #616161;
+  --main-text-col: #555555;
+  --header-col: #111111;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'calluna-sans', sans-serif;
+}
+
+p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--main-text-col);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--header-col);
+
+  margin-bottom: 2rem;
+
+  font-family: 'poppins', sans-serif !important;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-image: url('/img/POPstanding2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-wrapper {
+  width: 80%;
+}
+
+/* make links grey */
+a {
+  color: var(--primary);
+  /* make underline 50% opacity */
+  /* text-decoration: none; */
+  /* transition: all 0.3s ease-in-out; */
+}
+
+a.button {
+  font-weight: 700;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--primary);
+  text-decoration: none;
+  color: var(--primary);
+
+  font-family: 'poppins', sans-serif !important;
+}
+
+a.icon {
+  font-weight: 700;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 0rem 0.5rem;
+  border: 0px solid var(--primary);
+  text-decoration: none;
+  color: var(--primary);
+
+  /* translate down slightly */
+  transform: translateY(0.25rem);
+}
+
+i.icon {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  color: var(--primary);
+  
+}
+
+a.button:hover {
+  background: var(--primary);
+  color: white;
+}
+
+a.icon:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.info-wrapper > * {
+  margin-bottom: 1rem;
+}
+
+.info-links {
+  margin: 2rem 0;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  .header {
+    height: 100vh;
+    max-height: 100vw;
+  }
+
+  .info {
+    display: block;
+  }
+
+  .info-wrapper {
+    margin: 5rem auto;
+  }
+  
+  
+}
