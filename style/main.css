@@ -90,14 +90,6 @@ a.icon {
   transform: translateY(0.25rem);
 }
 
-a.icon i {
-  position: relative;
-}
-a.icon svg {
-  position: relative;
-  z-index: 2;
-}
-
 i.icon {
   font-size: 2rem;
   margin-left: 0.5rem;
